@@ -57,7 +57,7 @@ body {
   position: relative;
   width: 60px;
   margin: auto;
-  top: 80vh;
+  margin-top: 100vh;
   transition: 0.5s;
   z-index: 1;
 }
@@ -68,17 +68,18 @@ body {
 
 
 #bloc2 {
-  margin-right: 60px;
-  margin-left: 60px;
-  background-color: white;
-  height: 850px;
+  margin: auto;
+  background-color: black;
+  height: 820px;
   display: inline-block;
+
 }
 
 #portrait {
   display: inline-block;
   width: 40%;
   margin-top: 40px;
+  padding-left: 80px;
 }
 
 #portrait img {
@@ -102,6 +103,7 @@ body {
   padding: 20px;
   margin-top: -790px;
   margin-left: 43%;
+  color: white;
 }
 
 #bio h1 {
@@ -116,8 +118,98 @@ body {
   font-weight: lighter;
 }
 
+#courant {
+  height: 800px;
+  width: 100%;
+  background-color: black;
+}
+
+#peinture {
+  width: 53%;
+  height: 760px;
+  margin-top: -16px;
+  background-image: url("images/lol.jpg");
+  display: block;
+  position: relative;
+
+
+}
+
+#peinture img {
+  height: 100%;
+}
+
+#texte {
+  right: 0;
+  margin-left: 48%;
+  width: 49%;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 720px;
+  margin-bottom: 200px;
+  display: block;
+  background-color: white;
+  display: block;
+  margin-top: -760px;
+  padding: 20px;
+  position: relative;
+}
+
+#texte h1 {
+  font-family: 'Euphoria Script', cursive;
+  font-size: 3.3em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#texte p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.8em;
+  font-weight: lighter;
+  text-align: center;
+}
+
 #oeuvres {
   background-color: black;
-  height: 850px;
+  height: 900px;
   width: 100%;
+  z-index: 2;
+
+}
+
+.trianglelien {
+  display: block;
+  position: absolute;
+  margin-left: 38%;
+  margin-bottom: -50px;
+  width: 20%;
+  text-align: center;
+  z-index: 100;
+  /*filter:invert(100%);
+  border: 1px solid black;*/
+}
+
+.triangle {
+  height: 60px;
+  margin: auto;
+  z-index: 5;
+}
+
+
+.trianglelien2 {
+  display: block;
+  position: absolute;
+  margin-left: 38%;
+  margin-top: -40px;
+  width: 20%;
+  text-align: center;
+  z-index: 100;
+  /*filter:invert(100%);
+  border: 1px solid black;*/
+}
+
+.triangle2 {
+  height: 60px;
+  margin: auto;
+  z-index: 5;
 }
